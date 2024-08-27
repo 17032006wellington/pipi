@@ -1,5 +1,5 @@
 .corpodosite {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 
@@ -8,23 +8,42 @@
     background-image: linear-gradient(black, gray);
     color: azure;
     display: flex;
-    padding: 24px 0;
+    padding: 20px 0;
+    justify-content: baseline;
 }
 
 .section1 {
     background-image: linear-gradient(gray, rgb(65, 65, 65));
-    padding: 100px;
+    padding: 1px;
     font-size: 20px;
+    display: flex;
 }
 
 .section2 {
     background-image: linear-gradient(rgb(65, 65, 65), black);
-    padding: 100px;
+    padding: 1PX;
     font-size: 20px;
+    display: flex
+}
+
+.cabecalho-imagem{
+    width: 20%;
 }
 
 .rodape {
     background-color: black;
     color: white;
     font-size: 20px;
+}
+
+.kkk{
+    padding-right: 100px;
+}
+
+.controle{
+    padding-right: 100px;
+}
+
+.click{
+    padding-right: 10px;
 }
